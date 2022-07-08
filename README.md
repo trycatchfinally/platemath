@@ -1,5 +1,5 @@
 # why?
-Do you love lifting weights and HATE doing plate math? I certainly do. So, instead of trying to do math and percentages on the fly, let's pre-compute our warmup sets instead!
+Do you love lifting weights and HATE doing plate math? I certainly do. So, instead of trying to add and subtract and compute percentages, let's pre-compute our warmup sets instead!
 
 # how to
 
