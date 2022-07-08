@@ -93,14 +93,14 @@ it'd be really cool to color-code the output in renderer.py...
 
 # files
 
-* [main.py] - main program, generates output.pkl (takes ~3 minutes)
-    * [tests.py] - some unit tests
-* [renderer.py] - input is output.pkl, displays markdown to the console
-* [o.cmd] - runs renderer.py and then pandoc to generate html
-* [extra.html] - extra CSS used by pandoc to align the HTML table more nicely and make printing easier
-* [output.html] - generated output
-* [output.pdf] - chrome print output (1 weight per page)
-* [output4.pdf] - chrome print output (4 weights per page)
+* [main.py](main.py) - main program, generates output.pkl (takes ~3 minutes)
+    * [tests.py](tests.py) - some unit tests
+* [renderer.py](renderer.py) - input is output.pkl, displays markdown to the console
+* [o.cmd](o.cmd) - runs renderer.py and then pandoc to generate html
+* [extra.html](extra.html) - extra CSS used by pandoc to align the HTML table more nicely and make printing easier
+* [output.html](output.html) - generated output
+* [output.pdf](output.pdf) - chrome print output (1 weight per page)
+* [output4.pdf](output4.pdf) - chrome print output (4 weights per page)
 
 # example renderer.py output:
 
