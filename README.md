@@ -1,6 +1,38 @@
 # why?
 Do you love lifting weights and HATE doing plate math? I certainly do. So, instead of trying to add and subtract and compute percentages, let's pre-compute our warmup sets instead!
 
+# example html
+
+# 335
+
+## 1 warmup set
+
+| set   |   total |   side | add                 |
+|-------|---------|--------|---------------------|
+| e     |      45 |        |                     |
+| A     |     185 |     70 | 45, 25              |
+| W     |     335 |    145 | 35, 15, 10, 5, 5, 5 |
+
+## 2 warmup sets
+
+| set   |   total |   side | add             |
+|-------|---------|--------|-----------------|
+| e     |      45 |        |                 |
+| A     |     135 |     45 | 45              |
+| B     |     235 |     95 | 35, 15          |
+| W     |     335 |    145 | 25, 10, 5, 5, 5 |
+
+## 3 warmup sets
+
+| set   |   total |   side | add         |
+|-------|---------|--------|-------------|
+| e     |      45 |        |             |
+| A     |     115 |     35 | 35          |
+| B     |     185 |     70 | 25, 10      |
+| C     |     275 |    115 | 45          |
+| W     |     335 |    145 | 15, 5, 5, 5 |
+
+
 # how to
 
 `pip install tabulate`, install pandoc for html rendering: https://pandoc.org/installing.html
@@ -61,14 +93,14 @@ it'd be really cool to color-code the output in renderer.py...
 
 # files
 
-* main.py - main program, generates output.pkl (takes ~3 minutes)
-    * tests.py - some unit tests
-* renderer.py - input is output.pkl, displays markdown to the console
-* o.cmd - runs renderer.py and then pandoc to generate html
-* extra.html - extra CSS to align the HTML table more nicely and make printing easier
-* output.html - generated output
-* output.pdf - chrome print output (1 weight per page)
-* output4.pdf - chrome print output (4 weights per page)
+* [main.py] - main program, generates output.pkl (takes ~3 minutes)
+    * [tests.py] - some unit tests
+* [renderer.py] - input is output.pkl, displays markdown to the console
+* [o.cmd] - runs renderer.py and then pandoc to generate html
+* [extra.html] - extra CSS used by pandoc to align the HTML table more nicely and make printing easier
+* [output.html] - generated output
+* [output.pdf] - chrome print output (1 weight per page)
+* [output4.pdf] - chrome print output (4 weights per page)
 
 # example renderer.py output:
 
@@ -100,34 +132,3 @@ it'd be really cool to color-code the output in renderer.py...
     | B     |     185 |     70 | 25, 10      |
     | C     |     275 |    115 | 45          |
     | W     |     335 |    145 | 15, 5, 5, 5 |
-
-# example html
-
-# 335
-
-## 1 warmup set
-
-| set   |   total |   side | add                 |
-|-------|---------|--------|---------------------|
-| e     |      45 |        |                     |
-| A     |     185 |     70 | 45, 25              |
-| W     |     335 |    145 | 35, 15, 10, 5, 5, 5 |
-
-## 2 warmup sets
-
-| set   |   total |   side | add             |
-|-------|---------|--------|-----------------|
-| e     |      45 |        |                 |
-| A     |     135 |     45 | 45              |
-| B     |     235 |     95 | 35, 15          |
-| W     |     335 |    145 | 25, 10, 5, 5, 5 |
-
-## 3 warmup sets
-
-| set   |   total |   side | add         |
-|-------|---------|--------|-------------|
-| e     |      45 |        |             |
-| A     |     115 |     35 | 35          |
-| B     |     185 |     70 | 25, 10      |
-| C     |     275 |    115 | 45          |
-| W     |     335 |    145 | 15, 5, 5, 5 |
