@@ -1,0 +1,6133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>output</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style>
+      h1 {
+          page-break-before: always;
+      }
+
+      td {
+          text-align: right;
+      }
+
+      td:first-child {
+          text-align: left;
+      }
+  </style>
+</head>
+<body>
+<h1 id="section">55</h1>
+<h2 id="full-load">full load</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-1">60</h1>
+<h2 id="full-load-1">full load</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>60</td>
+<td>7.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-2">65</h1>
+<h2 id="warmup-set">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>65</td>
+<td>10</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-3">70</h1>
+<h2 id="warmup-set-1">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>70</td>
+<td>12.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-4">75</h1>
+<h2 id="warmup-set-2">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>75</td>
+<td>15</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>65</td>
+<td>10</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>75</td>
+<td>15</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-5">80</h1>
+<h2 id="warmup-set-3">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>80</td>
+<td>17.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-1">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>65</td>
+<td>10</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>80</td>
+<td>17.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-6">85</h1>
+<h2 id="warmup-set-4">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-2">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>75</td>
+<td>15</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-3">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>65</td>
+<td>10</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>75</td>
+<td>15</td>
+<td>-5, 10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-7">90</h1>
+<h2 id="warmup-set-5">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>90</td>
+<td>22.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-4">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>75</td>
+<td>15</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>90</td>
+<td>22.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-5">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>65</td>
+<td>10</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>75</td>
+<td>15</td>
+<td>-5, 10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>90</td>
+<td>22.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-8">95</h1>
+<h2 id="warmup-set-6">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>95</td>
+<td>25</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-6">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>95</td>
+<td>25</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-7">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>75</td>
+<td>15</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>95</td>
+<td>25</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-9">100</h1>
+<h2 id="warmup-set-7">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>100</td>
+<td>27.5</td>
+<td>10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-8">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>100</td>
+<td>27.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-9">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>75</td>
+<td>15</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>100</td>
+<td>27.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-10">105</h1>
+<h2 id="warmup-set-8">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>105</td>
+<td>30</td>
+<td>10, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-10">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>95</td>
+<td>25</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>105</td>
+<td>30</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-11">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>95</td>
+<td>25</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>105</td>
+<td>30</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-11">110</h1>
+<h2 id="warmup-set-9">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>110</td>
+<td>32.5</td>
+<td>10, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-12">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>95</td>
+<td>25</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>110</td>
+<td>32.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-13">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>95</td>
+<td>25</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>110</td>
+<td>32.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-12">115</h1>
+<h2 id="warmup-set-10">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-14">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>105</td>
+<td>30</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>115</td>
+<td>35</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-15">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>95</td>
+<td>25</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>105</td>
+<td>30</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>115</td>
+<td>35</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-13">120</h1>
+<h2 id="warmup-set-11">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>120</td>
+<td>37.5</td>
+<td>10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-16">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>105</td>
+<td>30</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>120</td>
+<td>37.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-17">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>95</td>
+<td>25</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>105</td>
+<td>30</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>120</td>
+<td>37.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-14">125</h1>
+<h2 id="warmup-set-12">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>125</td>
+<td>40</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-18">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>125</td>
+<td>40</td>
+<td>-5, 25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-19">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>95</td>
+<td>25</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>105</td>
+<td>30</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>125</td>
+<td>40</td>
+<td>5, 5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-15">130</h1>
+<h2 id="warmup-set-13">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>130</td>
+<td>42.5</td>
+<td>15, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-20">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>85</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>130</td>
+<td>42.5</td>
+<td>-5, 25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-21">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>95</td>
+<td>25</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>105</td>
+<td>30</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>130</td>
+<td>42.5</td>
+<td>5, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-16">135</h1>
+<h2 id="warmup-set-14">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>135</td>
+<td>45</td>
+<td>15, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-22">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>135</td>
+<td>45</td>
+<td>5, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-23">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>75</td>
+<td>15</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>125</td>
+<td>40</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>135</td>
+<td>45</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-17">140</h1>
+<h2 id="warmup-set-15">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>140</td>
+<td>47.5</td>
+<td>15, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-24">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>140</td>
+<td>47.5</td>
+<td>5, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-25">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>75</td>
+<td>15</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>125</td>
+<td>40</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>140</td>
+<td>47.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-18">145</h1>
+<h2 id="warmup-set-16">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>145</td>
+<td>50</td>
+<td>15, 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-26">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>125</td>
+<td>40</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>145</td>
+<td>50</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-27">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>105</td>
+<td>30</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>135</td>
+<td>45</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>145</td>
+<td>50</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-19">150</h1>
+<h2 id="warmup-set-17">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>150</td>
+<td>52.5</td>
+<td>15, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-28">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>125</td>
+<td>40</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>150</td>
+<td>52.5</td>
+<td>10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-29">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>55</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>105</td>
+<td>30</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>135</td>
+<td>45</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>150</td>
+<td>52.5</td>
+<td>5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-20">155</h1>
+<h2 id="warmup-set-18">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>155</td>
+<td>55</td>
+<td>15, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-30">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>125</td>
+<td>40</td>
+<td>15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>155</td>
+<td>55</td>
+<td>10, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-31">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>125</td>
+<td>40</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>155</td>
+<td>55</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-21">160</h1>
+<h2 id="warmup-set-19">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>160</td>
+<td>57.5</td>
+<td>15, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-32">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>125</td>
+<td>40</td>
+<td>15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>160</td>
+<td>57.5</td>
+<td>10, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-33">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>125</td>
+<td>40</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>160</td>
+<td>57.5</td>
+<td>15, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-22">165</h1>
+<h2 id="warmup-set-20">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>165</td>
+<td>60</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-34">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>165</td>
+<td>60</td>
+<td>-10, 35</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-35">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>145</td>
+<td>50</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>165</td>
+<td>60</td>
+<td>5, 5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-23">170</h1>
+<h2 id="warmup-set-21">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>170</td>
+<td>62.5</td>
+<td>25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-36">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>170</td>
+<td>62.5</td>
+<td>-10, 35, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-37">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>145</td>
+<td>50</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>170</td>
+<td>62.5</td>
+<td>5, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-24">175</h1>
+<h2 id="warmup-set-22">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>175</td>
+<td>65</td>
+<td>25, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-38">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>175</td>
+<td>65</td>
+<td>10, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-39">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>145</td>
+<td>50</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>175</td>
+<td>65</td>
+<td>5, 5, 5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-25">180</h1>
+<h2 id="warmup-set-23">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>180</td>
+<td>67.5</td>
+<td>25, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-40">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>180</td>
+<td>67.5</td>
+<td>10, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-41">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>65</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>145</td>
+<td>50</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>180</td>
+<td>67.5</td>
+<td>5, 5, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-26">185</h1>
+<h2 id="warmup-set-24">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>185</td>
+<td>70</td>
+<td>25, 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-42">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>125</td>
+<td>40</td>
+<td>15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>185</td>
+<td>70</td>
+<td>-15, 45</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-43">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>145</td>
+<td>50</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>185</td>
+<td>70</td>
+<td>-15, 35</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-27">190</h1>
+<h2 id="warmup-set-25">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>190</td>
+<td>72.5</td>
+<td>25, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-44">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>125</td>
+<td>40</td>
+<td>15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>190</td>
+<td>72.5</td>
+<td>-15, 45, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-45">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>145</td>
+<td>50</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>190</td>
+<td>72.5</td>
+<td>-15, 35, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-28">195</h1>
+<h2 id="warmup-set-26">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>195</td>
+<td>75</td>
+<td>25, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-46">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>85</td>
+<td>20</td>
+<td>15, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>-5, 35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>195</td>
+<td>75</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-47">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>165</td>
+<td>60</td>
+<td>-10, 35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>195</td>
+<td>75</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-29">200</h1>
+<h2 id="warmup-set-27">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>200</td>
+<td>77.5</td>
+<td>25, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-48">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>85</td>
+<td>20</td>
+<td>15, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>-5, 35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>200</td>
+<td>77.5</td>
+<td>25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-49">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>165</td>
+<td>60</td>
+<td>-10, 35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>200</td>
+<td>77.5</td>
+<td>15, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-30">205</h1>
+<h2 id="warmup-set-28">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-50">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>205</td>
+<td>80</td>
+<td>15, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-51">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>5, 5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>175</td>
+<td>65</td>
+<td>-5, 35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>205</td>
+<td>80</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-31">210</h1>
+<h2 id="warmup-set-29">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>210</td>
+<td>82.5</td>
+<td>35, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-52">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>210</td>
+<td>82.5</td>
+<td>15, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-53">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>5, 5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>175</td>
+<td>65</td>
+<td>-5, 35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>210</td>
+<td>82.5</td>
+<td>15, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-32">215</h1>
+<h2 id="warmup-set-30">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>215</td>
+<td>85</td>
+<td>25, 15</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-54">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>215</td>
+<td>85</td>
+<td>15, 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-55">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>185</td>
+<td>70</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>215</td>
+<td>85</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-33">220</h1>
+<h2 id="warmup-set-31">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>220</td>
+<td>87.5</td>
+<td>25, 15, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-56">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>220</td>
+<td>87.5</td>
+<td>15, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-57">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>115</td>
+<td>35</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>185</td>
+<td>70</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>220</td>
+<td>87.5</td>
+<td>15, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-34">225</h1>
+<h2 id="warmup-set-32">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>225</td>
+<td>90</td>
+<td>35, 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-58">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>225</td>
+<td>90</td>
+<td>15, 10, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-59">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>195</td>
+<td>75</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>225</td>
+<td>90</td>
+<td>10, 5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-35">230</h1>
+<h2 id="warmup-set-33">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>230</td>
+<td>92.5</td>
+<td>35, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-60">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>230</td>
+<td>92.5</td>
+<td>15, 10, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-61">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>75</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>195</td>
+<td>75</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>230</td>
+<td>92.5</td>
+<td>10, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-36">235</h1>
+<h2 id="warmup-set-34">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>235</td>
+<td>95</td>
+<td>35, 15</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-62">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>185</td>
+<td>70</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>235</td>
+<td>95</td>
+<td>15, 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-63">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>85</td>
+<td>20</td>
+<td>15, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>155</td>
+<td>55</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>175</td>
+<td>65</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>235</td>
+<td>95</td>
+<td>25, 5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-37">240</h1>
+<h2 id="warmup-set-35">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>240</td>
+<td>97.5</td>
+<td>35, 15, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-64">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>185</td>
+<td>70</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>240</td>
+<td>97.5</td>
+<td>15, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-65">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>85</td>
+<td>20</td>
+<td>15, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>155</td>
+<td>55</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>175</td>
+<td>65</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>240</td>
+<td>97.5</td>
+<td>25, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-38">245</h1>
+<h2 id="warmup-set-36">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>245</td>
+<td>100</td>
+<td>35, 15, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-66">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>15, 5, 5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>245</td>
+<td>100</td>
+<td>-5, 45</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-67">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>85</td>
+<td>20</td>
+<td>15, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>155</td>
+<td>55</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>205</td>
+<td>80</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>245</td>
+<td>100</td>
+<td>-25, 45</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-39">250</h1>
+<h2 id="warmup-set-37">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>250</td>
+<td>102.5</td>
+<td>35, 15, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-68">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>15, 5, 5</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>250</td>
+<td>102.5</td>
+<td>-5, 45, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-69">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>85</td>
+<td>20</td>
+<td>15, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>155</td>
+<td>55</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>205</td>
+<td>80</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>250</td>
+<td>102.5</td>
+<td>-25, 45, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-40">255</h1>
+<h2 id="warmup-set-38">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>255</td>
+<td>105</td>
+<td>35, 25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-70">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>105</td>
+<td>30</td>
+<td>25, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>185</td>
+<td>70</td>
+<td>-5, 45</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>255</td>
+<td>105</td>
+<td>35</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-71">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>85</td>
+<td>20</td>
+<td>5, 15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>-15, 45</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>215</td>
+<td>85</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>255</td>
+<td>105</td>
+<td>15, 5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-41">260</h1>
+<h2 id="warmup-set-39">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>260</td>
+<td>107.5</td>
+<td>35, 25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-72">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>105</td>
+<td>30</td>
+<td>25, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>185</td>
+<td>70</td>
+<td>-5, 45</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>260</td>
+<td>107.5</td>
+<td>35, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-73">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>85</td>
+<td>20</td>
+<td>5, 15</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>-15, 45</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>215</td>
+<td>85</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>260</td>
+<td>107.5</td>
+<td>15, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-42">265</h1>
+<h2 id="warmup-set-40">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>165</td>
+<td>60</td>
+<td>35, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>265</td>
+<td>110</td>
+<td>45, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-74">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>265</td>
+<td>110</td>
+<td>25, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-75">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>5, 10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>215</td>
+<td>85</td>
+<td>-10, 45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>265</td>
+<td>110</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-43">270</h1>
+<h2 id="warmup-set-41">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>165</td>
+<td>60</td>
+<td>35, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>270</td>
+<td>112.5</td>
+<td>45, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-76">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>270</td>
+<td>112.5</td>
+<td>25, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-77">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>145</td>
+<td>50</td>
+<td>5, 10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>215</td>
+<td>85</td>
+<td>-10, 45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>270</td>
+<td>112.5</td>
+<td>25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-44">275</h1>
+<h2 id="warmup-set-42">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>155</td>
+<td>55</td>
+<td>45, 10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>275</td>
+<td>115</td>
+<td>35, 25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-78">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>275</td>
+<td>115</td>
+<td>25, 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-79">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>10, 15</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>225</td>
+<td>90</td>
+<td>-15, 45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>275</td>
+<td>115</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-45">280</h1>
+<h2 id="warmup-set-43">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>155</td>
+<td>55</td>
+<td>45, 10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>280</td>
+<td>117.5</td>
+<td>35, 25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-80">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>280</td>
+<td>117.5</td>
+<td>25, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-81">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>165</td>
+<td>60</td>
+<td>10, 15</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>225</td>
+<td>90</td>
+<td>-15, 45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>280</td>
+<td>117.5</td>
+<td>25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-46">285</h1>
+<h2 id="warmup-set-44">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>165</td>
+<td>60</td>
+<td>45, 15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>285</td>
+<td>120</td>
+<td>35, 25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-82">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>285</td>
+<td>120</td>
+<td>25, 15</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-83">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>155</td>
+<td>55</td>
+<td>15, 5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>235</td>
+<td>95</td>
+<td>-5, 45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>285</td>
+<td>120</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-47">290</h1>
+<h2 id="warmup-set-45">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>165</td>
+<td>60</td>
+<td>45, 15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>290</td>
+<td>122.5</td>
+<td>35, 25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-84">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>290</td>
+<td>122.5</td>
+<td>25, 15, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-85">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>155</td>
+<td>55</td>
+<td>15, 5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>235</td>
+<td>95</td>
+<td>-5, 45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>290</td>
+<td>122.5</td>
+<td>25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-48">295</h1>
+<h2 id="warmup-set-46">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>165</td>
+<td>60</td>
+<td>45, 15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>295</td>
+<td>125</td>
+<td>35, 25, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-86">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>295</td>
+<td>125</td>
+<td>25, 15, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-87">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>155</td>
+<td>55</td>
+<td>15, 5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>245</td>
+<td>100</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>295</td>
+<td>125</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-49">300</h1>
+<h2 id="warmup-set-47">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>165</td>
+<td>60</td>
+<td>45, 15</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>300</td>
+<td>127.5</td>
+<td>35, 25, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-88">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>300</td>
+<td>127.5</td>
+<td>25, 15, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-89">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>155</td>
+<td>55</td>
+<td>15, 5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>245</td>
+<td>100</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>300</td>
+<td>127.5</td>
+<td>25, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-50">305</h1>
+<h2 id="warmup-set-48">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>185</td>
+<td>70</td>
+<td>45, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>305</td>
+<td>130</td>
+<td>35, 15, 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-90">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>305</td>
+<td>130</td>
+<td>25, 15, 10</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-91">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>185</td>
+<td>70</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>255</td>
+<td>105</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>305</td>
+<td>130</td>
+<td>15, 10</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-51">310</h1>
+<h2 id="warmup-set-49">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>185</td>
+<td>70</td>
+<td>45, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>310</td>
+<td>132.5</td>
+<td>35, 15, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-92">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>205</td>
+<td>80</td>
+<td>35</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>310</td>
+<td>132.5</td>
+<td>25, 15, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-93">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>95</td>
+<td>25</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>185</td>
+<td>70</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>255</td>
+<td>105</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>310</td>
+<td>132.5</td>
+<td>15, 10, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-52">315</h1>
+<h2 id="warmup-set-50">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>185</td>
+<td>70</td>
+<td>45, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>315</td>
+<td>135</td>
+<td>35, 15, 10, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-94">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>235</td>
+<td>95</td>
+<td>35, 15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>315</td>
+<td>135</td>
+<td>25, 10, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-95">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>105</td>
+<td>30</td>
+<td>25, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>195</td>
+<td>75</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>245</td>
+<td>100</td>
+<td>15, 10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>315</td>
+<td>135</td>
+<td>35</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-53">320</h1>
+<h2 id="warmup-set-51">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>185</td>
+<td>70</td>
+<td>45, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>320</td>
+<td>137.5</td>
+<td>35, 15, 10, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-96">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>235</td>
+<td>95</td>
+<td>35, 15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>320</td>
+<td>137.5</td>
+<td>25, 10, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-97">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>105</td>
+<td>30</td>
+<td>25, 5</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>195</td>
+<td>75</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>245</td>
+<td>100</td>
+<td>15, 10</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>320</td>
+<td>137.5</td>
+<td>35, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-54">325</h1>
+<h2 id="warmup-set-52">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>185</td>
+<td>70</td>
+<td>45, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>325</td>
+<td>140</td>
+<td>35, 15, 10, 5, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-98">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>235</td>
+<td>95</td>
+<td>35, 15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>325</td>
+<td>140</td>
+<td>25, 10, 5, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-99">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>175</td>
+<td>65</td>
+<td>25, 5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>265</td>
+<td>110</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>325</td>
+<td>140</td>
+<td>15, 10, 5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-55">330</h1>
+<h2 id="warmup-set-53">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>185</td>
+<td>70</td>
+<td>45, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>330</td>
+<td>142.5</td>
+<td>35, 15, 10, 5, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-100">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>235</td>
+<td>95</td>
+<td>35, 15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>330</td>
+<td>142.5</td>
+<td>25, 10, 5, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-101">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>175</td>
+<td>65</td>
+<td>25, 5</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>265</td>
+<td>110</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>330</td>
+<td>142.5</td>
+<td>15, 10, 5, 2.5</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-56">335</h1>
+<h2 id="warmup-set-54">1 warmup set</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>185</td>
+<td>70</td>
+<td>45, 25</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>335</td>
+<td>145</td>
+<td>35, 15, 10, 5, 5, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-102">2 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>135</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>235</td>
+<td>95</td>
+<td>35, 15</td>
+</tr>
+<tr class="even">
+<td>W</td>
+<td>335</td>
+<td>145</td>
+<td>25, 10, 5, 5, 5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="warmup-sets-103">3 warmup sets</h2>
+<table>
+<thead>
+<tr class="header">
+<th>set</th>
+<th>total</th>
+<th>side</th>
+<th>add</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e</td>
+<td>45</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>115</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>185</td>
+<td>70</td>
+<td>25, 10</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>275</td>
+<td>115</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>335</td>
+<td>145</td>
+<td>15, 5, 5, 5</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
